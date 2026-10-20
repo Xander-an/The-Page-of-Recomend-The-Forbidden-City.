@@ -1,0 +1,7 @@
+{
+  "name": "forbidden-city-historical-place",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HTML and CSS single-page historical place assignment, including both bonus challenges.",
+  "scripts": { "start": "node serve.mjs" }
+}

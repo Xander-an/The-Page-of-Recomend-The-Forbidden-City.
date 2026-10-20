@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Beijing's Forbidden City: its history, must-see places, sample journeys, and a film from the Palace Museum.">
+  <meta name="theme-color" content="#722d2b">
+  <title>The Forbidden City — A Journey Through Time</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="top" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- HTML5 header + nav: the links navigate to sections of this single page. -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="The Forbidden City, back to top">
+        <svg class="brand-mark" viewBox="0 0 52 42" fill="none" aria-hidden="true">
+          <path d="M4 15c9 1 15-3 22-11 7 8 13 12 22 11M9 18h34M13 19v13m26-13v13M5 34h42M2 39h48M20 32V23h12v9M26 1v5" stroke="currentColor" stroke-width="1.7"/>
+        </svg>
+        <span>THE FORBIDDEN CITY<small>BEIJING · SINCE 1420</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#story">The story</a>
+        <a href="#sights">Must-see places</a>
+        <a href="#journeys">Journeys</a>
+        <a href="#visit" class="nav-visit">Explore & visit <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Banner: a local photograph remains available when the network is offline. -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/forbidden-city-panorama.jpg" alt="Golden palace rooftops stretching along the Forbidden City's central axis, viewed from Jingshan Hill" fetchpriority="high" width="1920" height="1080">
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow light"><span class="little-line"></span> A CULTURAL JOURNEY · BEIJING, CHINA</p>
+        <h1 id="hero-title">The Forbidden<br><em>City.</em></h1>
+        <p class="hero-subtitle">Six centuries. A thousand stories.</p>
+        <p class="hero-description">Step beyond the vermilion walls into a world of golden roofs, quiet courtyards, and imperial history.</p>
+        <a class="button button-cream" href="#story">Discover the story <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-seal" aria-hidden="true"><span>紫<br>禁<br>城</span><small>THE IMPERIAL PALACE</small></div>
+      <div class="container hero-bottom"><span>39.9163° N &nbsp; 116.3972° E</span><span>SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <div class="facts-band">
+      <dl class="container facts">
+        <div><dt>1420</dt><dd>Palace completed</dd></div>
+        <div><dt>24</dt><dd>Emperors called it home</dd></div>
+        <div><dt>1987</dt><dd>UNESCO World Heritage listing</dd></div>
+      </dl>
+    </div>
+
+    <!-- Introduction: headings, paragraphs, a figure, and an external source link. -->
+    <section class="section container story" id="story" aria-labelledby="story-title">
+      <div class="story-copy">
+        <p class="eyebrow"><span>01</span> THE STORY</p>
+        <h2 id="story-title">A city within<br><em>a city.</em></h2>
+        <p class="lead">At the heart of Beijing, an extraordinary world waits behind red walls.</p>
+        <p>Built between 1406 and 1420, the Forbidden City was the imperial home of the Ming and Qing dynasties. Its grand halls and carefully ordered courtyards reveal how architecture expressed imperial power.</p>
+        <p>The Palace Museum opened here in 1925. Today, the former palace invites visitors to discover Chinese art, craftsmanship, and the stories held within its walls.</p>
+        <a class="text-link" href="https://intl.dpm.org.cn/about_us/126.html" target="_blank" rel="noopener noreferrer">Read the museum's history <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+        <div class="timeline" aria-label="Three milestones">
+          <div><strong>1420</strong><span>An imperial palace</span></div>
+          <div><strong>1925</strong><span>A public museum</span></div>
+          <div><strong>Today</strong><span>A shared heritage</span></div>
+        </div>
+      </div>
+      <figure class="story-figure">
+        <img src="assets/corner-tower.jpg" alt="An ornate corner tower reflected in the moat around the Forbidden City" width="1200" height="1500" loading="lazy">
+        <figcaption><span>IN THE DETAILS</span>The corner towers, where architecture meets reflection.</figcaption>
+        <span class="figure-stamp" aria-hidden="true">BEYOND<br>THE WALLS</span>
+      </figure>
+    </section>
+
+    <!-- A semantic, styled list fulfils the must-see attractions requirement. -->
+    <section class="sights-section" id="sights" aria-labelledby="sights-title">
+      <div class="container section">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span>02</span> PLACES TO REMEMBER</p><h2 id="sights-title">Walk into <em>wonder.</em></h2></div>
+          <p>Look up at the rooftops. <br>Slow down in the courtyards.</p>
+        </div>
+        <ol class="attraction-list">
+          <li class="attraction">
+            <div class="attraction-image"><img src="assets/hall-of-supreme-harmony.jpg" alt="The Hall of Supreme Harmony above its white marble terraces" width="1000" height="750" loading="lazy"><span class="image-number">01</span></div>
+            <p class="place-type">THE CEREMONIAL HEART</p>
+            <h3>Hall of Supreme Harmony</h3>
+            <p>Pause before the palace's monumental ceremonial hall and take in its golden roof and marble terraces.</p>
+          </li>
+          <li class="attraction">
+            <div class="attraction-image"><img src="assets/imperial-garden.jpg" alt="Traditional pavilion, trees, and decorative rocks in the Imperial Garden" width="1000" height="750" loading="lazy"><span class="image-number">02</span></div>
+            <p class="place-type">A MOMENT OF STILLNESS</p>
+            <h3>The Imperial Garden</h3>
+            <p>Trade the scale of the great courtyards for winding paths, sculptural rocks, and the shade of old trees.</p>
+          </li>
+          <li class="attraction">
+            <div class="attraction-image"><img src="assets/corner-tower.jpg" alt="The Forbidden City's corner tower beside the surrounding moat" width="1000" height="750" loading="lazy"><span class="image-number">03</span></div>
+            <p class="place-type">A DIFFERENT PERSPECTIVE</p>
+            <h3>The Corner Towers</h3>
+            <p>Follow the outside of the palace walls to see layered eaves mirrored in the still water of the moat.</p>
+          </li>
+        </ol>
+        <a class="text-link" href="https://pano.dpm.org.cn/" target="_blank" rel="noopener noreferrer">Take the museum's virtual tour <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+      </div>
+    </section>
+
+    <!-- Real table elements are used here, rather than a grid that only looks like a table. -->
+    <section class="journeys-section" id="journeys" aria-labelledby="journeys-title">
+      <div class="container section">
+        <div class="section-heading">
+          <div><p class="eyebrow light"><span>03</span> MAKE TIME FOR HISTORY</p><h2 id="journeys-title">Your pace.<br><em>Your journey.</em></h2></div>
+          <p>From a day of discovery to a longer <br>escape into Beijing's past.</p>
+        </div>
+        <div class="table-scroll" tabindex="0" role="region" aria-label="Travel package comparison, scroll horizontally on small screens" aria-describedby="package-note">
+          <table>
+            <caption>Sample travel packages · Beijing & the Forbidden City</caption>
+            <thead><tr><th scope="col">The experience</th><th scope="col">Duration</th><th scope="col">Included activities</th><th scope="col">Sample cost / person</th></tr></thead>
+            <tbody>
+              <tr><th scope="row"><span class="package-number">01</span> Palace Essentials<small>A first encounter</small></th><td>1 day<small>No overnight stay</small></td><td>Central-axis walk, main ceremonial halls,<br>and the Imperial Garden</td><td class="price">¥280</td></tr>
+              <tr class="featured"><th scope="row"><span class="package-number">02</span> Imperial Weekend<small>More time to explore <span class="tag">FEATURED</span></small></th><td>2 days / 1 night</td><td>Palace highlights, Jingshan viewpoint,<br>and a hutong walk</td><td class="price">¥860</td></tr>
+              <tr><th scope="row"><span class="package-number">03</span> Beijing Heritage<small>A deeper discovery</small></th><td>3 days / 2 nights</td><td>Forbidden City, Temple of Heaven,<br>and Summer Palace</td><td class="price">¥1,580</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="package-note" id="package-note"><span aria-hidden="true">ⓘ</span> Illustrative packages and prices for this student project only. These are not official museum offers or bookable tours; accommodation and transport are not specified.</p>
+      </div>
+    </section>
+
+    <!-- Both providers requested in the brief are used: Bilibili video and Baidu Map. -->
+    <section class="section container visit-section" id="visit" aria-labelledby="visit-title">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span>04</span> A LITTLE CLOSER</p><h2 id="visit-title">Let the journey <em>begin.</em></h2></div>
+        <p>A glimpse inside. A place on the map. <br>Your next chapter in Beijing.</p>
+      </div>
+      <div class="visit-grid">
+        <div class="media-area">
+          <div class="media-tabs" role="tablist" aria-label="Explore the Forbidden City">
+            <button id="video-tab" type="button" role="tab" aria-selected="true" aria-controls="video-panel" tabindex="0">01 &nbsp; Watch the film <span>BILIBILI</span></button>
+            <button id="map-tab" type="button" role="tab" aria-selected="false" aria-controls="map-panel" tabindex="-1">02 &nbsp; Find your way <span>BAIDU MAP</span></button>
+          </div>
+          <div id="video-panel" class="media-panel" role="tabpanel" aria-labelledby="video-tab" tabindex="0">
+            <div class="iframe-wrap">
+              <iframe src="https://player.bilibili.com/player.html?bvid=BV1qr47zaEjM&amp;page=1&amp;autoplay=0&amp;muted=0" title="The Palace Museum centenary film, official Bilibili video (Chinese)" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <p class="embed-caption">The Palace Museum · A century of discovery <a href="https://www.bilibili.com/video/BV1qr47zaEjM/" target="_blank" rel="noopener noreferrer">Watch on Bilibili ↗<span class="sr-only"> (opens in a new tab)</span></a></p>
+          </div>
+          <div id="map-panel" class="media-panel" role="tabpanel" aria-labelledby="map-tab" tabindex="0" hidden>
+            <div class="iframe-wrap">
+              <iframe src="https://api.map.baidu.com/marker?location=39.924091,116.403414&amp;title=%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2&amp;content=%E5%8C%97%E4%BA%AC%E5%B8%82%E4%B8%9C%E5%9F%8E%E5%8C%BA%E6%99%AF%E5%B1%B1%E5%89%8D%E8%A1%974%E5%8F%B7&amp;output=html&amp;src=webapp.historicalplace.assignment" title="Baidu Map showing the Palace Museum in Beijing" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <p class="embed-caption">4 Jingshan Qianjie, Dongcheng, Beijing <a href="https://map.baidu.com/search/%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2/" target="_blank" rel="noopener noreferrer">Open Baidu Map ↗<span class="sr-only"> (opens in a new tab)</span></a></p>
+          </div>
+          <p class="network-note">Video and map need an internet connection. If an embed is unavailable, use its original-site link.</p>
+          <noscript><p>To view the map without JavaScript, <a href="https://map.baidu.com/search/%E6%95%85%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%99%A2/">open Baidu Map</a>.</p></noscript>
+        </div>
+        <aside class="visit-card" aria-labelledby="before-you-go">
+          <svg viewBox="0 0 32 40" width="27" height="34" fill="none" aria-hidden="true"><path d="M29 15c0 10-13 22-13 22S3 25 3 15a13 13 0 0 1 26 0Z" stroke="currentColor" stroke-width="1.5"/><circle cx="16" cy="15" r="4" stroke="currentColor" stroke-width="1.5"/></svg>
+          <h3 id="before-you-go">Before you go</h3>
+          <dl><div><dt>LOCATION</dt><dd>Central Beijing, China<br>4 Jingshan Qianjie</dd></div><div><dt>THE WALK</dt><dd>Enter through the Meridian Gate in the south and explore towards the north.</dd></div><div><dt>PLAN AHEAD</dt><dd>Check the museum's current opening times, ticket rules, and available exhibitions before visiting.</dd></div></dl>
+          <a class="button button-red" href="https://www.dpm.org.cn/" target="_blank" rel="noopener noreferrer">Official museum website <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+        </aside>
+      </div>
+    </section>
+
+    <div class="closing-band"><div class="container"><span aria-hidden="true">故宫</span><p>Some places tell stories.<br><em>This one holds centuries.</em></p><a href="#top" aria-label="Back to top">↑</a></div></div>
+  </main>
+
+  <!-- Bonus: footer includes official contact details and a social-media link. -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about"><a class="footer-brand" href="#top">THE FORBIDDEN CITY</a><p>A journey through history, architecture,<br>and the beauty of cultural heritage.</p><p class="project-label">An independent student web design project.</p></div>
+      <div><h3>MUSEUM CONTACT</h3><a href="mailto:gugong@dpm.org.cn">gugong@dpm.org.cn</a><p>4 Jingshan Qianjie<br>Beijing, China</p></div>
+      <div><h3>KEEP EXPLORING</h3><a href="https://www.bilibili.com/video/BV1qr47zaEjM/" target="_blank" rel="noopener noreferrer">Palace Museum on Bilibili ↗</a><a href="https://pano.dpm.org.cn/" target="_blank" rel="noopener noreferrer">Digital Palace Museum ↗</a><a href="https://intl.dpm.org.cn/" target="_blank" rel="noopener noreferrer">Official museum website ↗</a></div>
+    </div>
+    <div class="container footer-bottom"><p>2026 · Historical Place Website · Made with HTML, CSS & a little JavaScript</p><details class="credits"><summary>Sources & photo credits</summary><div class="credits-content"><p>History and contact: <a href="https://intl.dpm.org.cn/about_us/126.html" target="_blank" rel="noopener noreferrer">The Palace Museum</a>. Visitor route: <a href="https://young.dpm.org.cn/en/node/277" target="_blank" rel="noopener noreferrer">Museum visitor guidelines</a>.</p><p>Photographs from Wikimedia Commons; displayed with layout cropping:</p><ul><li>Panorama: <a href="https://commons.wikimedia.org/wiki/File:Forbidden_City_Panorama_1.jpg">Tojan76</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></li><li>Hall: <a href="https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony.JPG">Gisling</a> · <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></li><li>Corner tower: <a href="https://commons.wikimedia.org/wiki/File:Corner_Tower_of_the_Forbidden_City,_Beijing.jpg">ZhengZhou</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></li><li>Garden: <a href="https://commons.wikimedia.org/wiki/File:Imperial_garden_of_the_Forbidden_City_20160826.jpg">そらみみ</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></li></ul></div></details></div>
+  </footer>
+</body>
+</html>
