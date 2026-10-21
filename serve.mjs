@@ -1,4 +1,3 @@
-// Optional local preview server. No npm install or external dependencies needed.
 import http from 'node:http';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';

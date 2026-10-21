@@ -1,4 +1,3 @@
-/* 1. Shared palette, typography, and accessible base styles. */
 :root {
   --paper: #f8f5ee;
   --paper-dark: #efebe1;
@@ -45,7 +44,6 @@ p { margin-bottom: 18px; }
 .skip-link:focus { top: 12px; }
 [hidden] { display: none !important; }
 
-/* 2. Header and navigation. Bonus: hover and keyboard-focus effects. */
 .site-header { position: sticky; top: 0; z-index: 20; background: rgba(248,245,238,.97); border-bottom: 1px solid #e5e0d6; }
 .header-inner { min-height: 86px; display: flex; justify-content: space-between; align-items: center; gap: 24px; }
 .brand { display: flex; align-items: center; gap: 13px; color: var(--red); }
@@ -62,7 +60,6 @@ p { margin-bottom: 18px; }
 .main-nav .nav-visit::after { display: none; }
 .nav-visit span { margin-left: 13px; }
 
-/* 3. Photographic banner and the three historical facts. */
 .hero { min-height: 630px; position: relative; isolation: isolate; overflow: hidden; color: #fff9ee; display: flex; align-items: center; }
 .hero-image, .hero-shade { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -2; }
 .hero-image { object-position: center 65%; }
@@ -86,7 +83,6 @@ p { margin-bottom: 18px; }
 .facts dt { font: 38px/1.2 var(--serif); color: var(--red); }
 .facts dd { margin: 0; max-width: 130px; font-size: 11px; color: #666658; line-height: 1.6; }
 
-/* 4. Story and timeline. */
 .story { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 100px; }
 .story-copy > p:not(.eyebrow) { color: var(--muted); font-size: 13px; }
 .story-copy .lead { font-family: var(--serif); font-size: 21px !important; line-height: 1.5; color: var(--ink) !important; }
@@ -100,7 +96,6 @@ p { margin-bottom: 18px; }
 .timeline strong { font-family: var(--serif); font-size: 20px; font-weight: 400; color: var(--red); }
 .timeline span { display: block; font-size: 9px; color: var(--muted); }
 
-/* 5. Must-see attractions: a styled semantic list with image hover effects. */
 .sights-section { background: var(--paper-dark); }
 .section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 30px; margin-bottom: 40px; }
 .section-heading h2 { margin-bottom: 0; }
@@ -114,7 +109,6 @@ p { margin-bottom: 18px; }
 .attraction h3 { font-size: 25px; line-height: 1.25; margin-bottom: 13px; letter-spacing: -.5px; }
 .attraction > p:last-child { color: var(--muted); font-size: 12px; margin: 0; }
 
-/* 6. Travel packages. Bonus: table rows respond to mouse hover. */
 .journeys-section { color: var(--paper); background: var(--red); }
 .journeys-section h2 em { color: #e7cf9e; }
 .journeys-section .section-heading > p { color: #e6d4ca; }
@@ -137,7 +131,6 @@ tbody tr:last-child > * { border-bottom: 0; }
 .package-note { color: #e7d6cf; font-size: 10px; max-width: 900px; margin: 17px 0 0; }
 .package-note > span { margin-right: 7px; }
 
-/* 7. Accessible media tabs, external iframes, and visit details. */
 .visit-grid { display: grid; grid-template-columns: 1.9fr 1fr; gap: 38px; align-items: start; }
 .media-tabs { display: flex; border-bottom: 1px solid var(--line); margin-bottom: 19px; }
 .media-tabs button { flex: 1; border: 0; border-bottom: 2px solid transparent; background: none; color: var(--muted); padding: 13px 0; cursor: pointer; text-align: left; font-size: 12px; }
@@ -165,7 +158,6 @@ iframe { width: 100%; height: 100%; display: block; border: 0; }
 .closing-band a { margin-left: auto; width: 44px; height: 44px; display: grid; place-items: center; border: 1px solid #a9957d; border-radius: 50%; color: var(--red); transition: background .2s; }
 .closing-band a:hover { background: #d8ccb7; }
 
-/* 8. Bonus footer: contact, social media, and expandable image attribution. */
 .site-footer { background: #272e28; color: #dfdfd2; padding-block: 52px 20px; font-size: 11px; }
 .footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: 50px; padding-bottom: 34px; }
 .footer-brand { font: 18px var(--serif); letter-spacing: 1.5px; color: #f4ead7; }
@@ -182,7 +174,6 @@ iframe { width: 100%; height: 100%; display: block; border: 0; }
 .credits-content a { text-decoration: underline; }
 .credits-content ul { padding-left: 16px; }
 
-/* 9. Responsive layout: tablet and phone. The comparison table keeps its meaning. */
 @media (min-width: 1600px) { .hero { min-height: 720px; } }
 @media (max-width: 1100px) {
   .container { width: calc(100% - 72px); }

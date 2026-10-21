@@ -1,7 +1,5 @@
-/* Small progressive enhancements; the assignment's structure and styling stay in HTML/CSS. */
 'use strict';
 
-// Accessible video/map tabs: mouse, Tab, arrow keys, Home, and End are supported.
 const mediaTabs = Array.from(document.querySelectorAll('[role="tab"]'));
 function activateTab(tab) {
   mediaTabs.forEach((item) => {
@@ -26,7 +24,6 @@ mediaTabs.forEach((tab, index) => {
   });
 });
 
-// Highlight the section that is currently being read, including during scrolling.
 const navLinks = Array.from(document.querySelectorAll('.main-nav a'));
 if ('IntersectionObserver' in window) {
   const sectionObserver = new IntersectionObserver((entries) => {
